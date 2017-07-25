@@ -1,0 +1,19 @@
+{
+  "name": "injectable-react",
+  "version": "1.0.0",
+  "description": "Injectable react.js components",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolana/injectable-react.git"
+  },
+  "author": "leolana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolana/injectable-react/issues"
+  },
+  "homepage": "https://github.com/leolana/injectable-react#readme"
+}
