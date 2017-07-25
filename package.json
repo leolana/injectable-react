@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leolana/injectable-react/issues"
   },
-  "homepage": "https://github.com/leolana/injectable-react#readme"
+  "homepage": "https://github.com/leolana/injectable-react#readme",
+  "dependencies": {
+    "webpack": "^3.4.0"
+  }
 }
