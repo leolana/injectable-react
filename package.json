@@ -4,6 +4,8 @@
   "description": "Injectable react.js components",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p",
     "test": "test"
   },
   "repository": {
