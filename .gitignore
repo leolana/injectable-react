@@ -60,3 +60,5 @@ typings/
 #build folder
 src/client/public/
 
+#vscode
+.vscode/
