@@ -7,7 +7,7 @@ var LIB_DIR = path.resolve(__dirname, 'src/lib');
 
 var config = {
   entry: {
-    app: APP_DIR + '/index.jsx',
+    app: APP_DIR + '/index.js',
   },
   output: {
     path: BUILD_DIR,
@@ -16,16 +16,13 @@ var config = {
   module : {
     loaders : [
       {
-        test : /\.(js|jsx)?/,
+        test : /\.js?/,
         include : [
           APP_DIR,
           LIB_DIR
         ],
         loader : 'babel-loader',
-        exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react']
-        }
+        exclude: /node_modules/
       }
     ]
   }
